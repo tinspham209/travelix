@@ -112,10 +112,14 @@ section {
   display: flex;
   align-items: center;
 
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 999;
+}
+
+.header.active {
+  background-color: var(--purple-solid);
 }
 
 /* Header styles - nav */
