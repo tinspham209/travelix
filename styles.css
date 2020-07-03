@@ -709,7 +709,7 @@ section {
 
   /* Room section styles */
   .rooms-grid {
-    grid-template-columns: repeat((auto-fit, minmax(40rem, 1fr)));
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
     grid-gap: 8rem;
   }
   .featured-rooms {
@@ -719,5 +719,11 @@ section {
 
   .room-info-wrap {
     margin-left: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .book-form .input-group:first-child {
+    flex: 0 0 30%;
   }
 }
